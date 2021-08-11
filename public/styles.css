@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    align-items: center;
+    top: 0;
+}
+nav a {
+    margin: 0 4% 0 20%;
+    height: 32px;
+}
+nav span {
+    position: relative;
+    top: auto;
+    align-items: center;
+    font-size: 24px;
+    line-height: 22px;
+}
+h1 {
+    display: block;
+    width: 100vw;
+    margin: 120px 20% 0 20%;
+}#modal {
+    /* margin: 0 auto; */
+    border: solid 2px #000000;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 99;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 100px;
+    flex-wrap: wrap;
+}
+#modal h2 {
+    color: #FF7777;
+    display: flex;
+    right: auto;
+}
+#modal p {
+    width: 100%;
+    margin: 8px 15%;
+}
+
+#modal button {
+    margin: 12px;
+    padding: 8px;
+}
+section {
+    margin: 80px 20%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section a {
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 32px;
+}
+.card {
+    height: 80px;
+    border: solid 2px #c4c4c4;
+    border-radius: 4px;
+    padding: 36px 20px;
+    background-color: #FFFFFF;
+    transition-duration: 0.5s;
+}
+.card img {
+    height: 40px;
+}
+.card:hover {
+    transform: translateY(-4px);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    padding: 20px 20%;
+    background-color: #F7F7F7;
+}
+footer a {
+    display: flex;
+    position: flex-start;
+    margin-top: 12px;
+    color: #000000;
+    transition-duration: 0.5s;
+}
+footer a:hover {
+    color: #52BAF9;
+    transition-duration: 0.5s;
+}
+footer p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+footer img {
+    height: 80px;
+}
